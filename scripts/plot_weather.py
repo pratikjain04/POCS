@@ -110,7 +110,7 @@ class WeatherPlotter(object):
                                ]
         self.plot_ambient_vs_time()
         self.plot_cloudiness_vs_time()
-        self.plot_windspeed_vs_time()
+        #self.plot_windspeed_vs_time()
         self.plot_rain_freq_vs_time()
         self.plot_safety_vs_time()
         self.plot_pwm_vs_time()

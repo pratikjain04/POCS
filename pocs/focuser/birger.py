@@ -408,17 +408,17 @@ class Focuser(AbstractFocuser):
     def _get_library_version(self):
         response = self._send_command('lv', response_length=1)
         self._library_version = response[0].rstrip()
-        self.logger.debug("Got library version '{}' for {} on {}".format(self.library_version, self.name, self.port))
+        self.logger.debug("Got library version '{}' for {} on {}".format(self._library_version, self.name, self.port))
 
     def _get_hardware_version(self):
         response = self._send_command('hv', response_length=1)
         self._hardware_version = response[0].rstrip()
-        self.logger.debug("Got hardware version {} for {} on {}".format(self.hardware_version, self.name, self.port))
+        self.logger.debug("Got hardware version {} for {} on {}".format(self._hardware_version, self.name, self.port))
 
     def _get_lens_info(self):
         response = self._send_command('id', response_length=1)
         self._lens_info = response[0].rstrip()
-        self.logger.debug("Got lens info '{}' for {} on {}".format(self.lens_info, self.name, self.port))
+        self.logger.debug("Got lens info '{}' for {} on {}".format(self._lens_info, self.name, self.port))
 
     def _initialise_aperture(self):
         self.logger.debug('Initialising aperture motor')
