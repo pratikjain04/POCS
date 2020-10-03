@@ -1,16 +1,5 @@
 Welcome to POCS documentation!
 ================================
-<p align="center">
-<img src="https://projectpanoptes.org/uploads/2018/12/16/pan-logo.png" alt="PANOPTES logo" style="border: 1px solid;" width="400px" />  
-</p>
-<br>
-
-[![Build Status](https://travis-ci.org/panoptes/POCS.svg?branch=develop)](https://travis-ci.org/panoptes/POCS)
-[![codecov](https://codecov.io/gh/panoptes/POCS/branch/develop/graph/badge.svg)](https://codecov.io/gh/panoptes/POCS)
-[![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/)
-
-<!-- <img src="http://www.projectpanoptes.org/images/units/PAN001_sunset_02.png" alt="PANOPTES unit PAN001 on Mauna Loa" style="border: 1px solid;" /> -->
-
 # Overview
 
 [PANOPTES](http://projectpanoptes.org) is an open source citizen science project 
